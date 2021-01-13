@@ -1,0 +1,19 @@
+{
+  "name": "fb-security-keys",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "NODE_ENV=production mocha --exit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "firebase": "^8.2.2",
+    "firebase-admin": "^9.4.2"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  }
+}
